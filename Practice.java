@@ -20,7 +20,7 @@ public class Practice {
 		for(int i=0;i<s.length();i++) {
 			char d=s.charAt(i);
 			if(this.map.containsKey(d)) {
-				char tope=stack.empty( ) ? '@':stack.pop();
+				char tope=stack.empty( ) ? '@':stack.pop();//top element 
 				
 				if(tope!=this.map.get(d)) {
 					return false;
