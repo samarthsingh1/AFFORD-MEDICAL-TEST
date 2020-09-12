@@ -1,3 +1,8 @@
+/*
+Given a 2D board and a word, find if the word exists within the grid. The word can be constructed
+from letters of sequentially adjacent cells, where "adjacent" cells are those horizontally or vertically
+neighbouring. The same letter cell may not be used more than once.
+*/
 import java.util.*;
 public class Practice {
 	public boolean checkValidity(char[][] board,String str) {
